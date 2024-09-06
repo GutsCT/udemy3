@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORE</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React</h1>
+
+        <div class="camisa">
+            <img src="img/3.jpg"" class=" camisa__imagen">
+
+            <div class="camisa__contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo mollitia tempora iusto quas numquam,
+                    amet voluptates in et distinctio deleniti! Illum</p>
+                <form action="" class="formulario">
+                    <select class="formulario__campo" name="" id="talla">
+                        <option disabled selected value="">-Selecciones una opcion-</option>
+                        <option  id="talla" value="chica">chica</option>
+                        <option id="talla"  value="mediana">mediana</option>
+                        <option  id="talla" value="grande">grande</option>
+                    </select>
+
+                    <input class="formulario__campo" min="1" max="9" type="number" name="" id="cantidad" placeholder="cantidad" value="">
+                    <input  class="formulario__boton" type="submit" value="agregar">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto ">Frontend Store -DERECHOS RESERVADOS 2024-</p>
+    </footer>
+    <script src="scrip.js"></script>
+</body>
+
+</html>

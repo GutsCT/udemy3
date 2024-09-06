@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-discoteca",
+  "version": "1.0.0",
+  "description": "Proyecto-curso",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Alexis",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.78.0"
+  }
+}
